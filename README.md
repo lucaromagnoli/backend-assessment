@@ -10,7 +10,7 @@ the problems are divided on complexity, from low to spicy. please choose a probl
 
 at turner & townsend, we prefer solutions which are explicit over implicit, discoverable over performant, and which are correctly tested given their size. all of these require python as it is the language we use most often here.
 
-to submit a solution, fork this repository and push your solution there. we will try to get back to you with feedback as soon as possible.
+to submit a solution, email us a zip of your code repository containing your solution, along with instructions on how to run it.
 
 thanks!
 
