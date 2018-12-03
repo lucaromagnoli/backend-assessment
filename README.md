@@ -6,7 +6,7 @@ the purpose of this is not to trick you or catch you out. although the problems 
 
 please make yourself comfortable before attempting any of these. there is no time limit, although if you find yourself spending more than a couple of hours on these, you might be taking the solution too far. we value your time and don't want to waste it.
 
-the problems are divided on complexity, from low to spicy. please choose a problem which you feel you will have time to properly solve and which gives most opportunity to demonstrate your programming skills. consider the seniority of the role in the decision of which problem to tackle.
+the problems are divided on complexity, from low to spicy. please choose a problem which you feel you will have time to properly solve and which gives you the most opportunity to demonstrate your programming skills. consider the seniority of the role in the decision of which problem to tackle.
 
 at turner & townsend, we prefer solutions which are explicit over implicit, discoverable over performant, and which are correctly tested given their size. all of these require python as it is the language we use most often here.
 
