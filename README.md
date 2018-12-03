@@ -18,12 +18,12 @@ thanks!
 
 the collatz, or 3n + 1 conjecture, is a mathematical sequence defined as follows:
 
-1. start with a number, n
-1. if n is even:
+* start with a number, n
+* if n is even:
   * produce n / 2
-1. otherwise, n is odd:
+* otherwise, n is odd:
   * produce 3 * n + 1
-1. repeat until n is 1
+* repeat until n is 1
 
 write a python program which takes a numeric input and shows how many steps it takes until the collatz sequence reaches 1.
 
@@ -31,6 +31,8 @@ write a python program which takes a numeric input and shows how many steps it t
 
 roman numerals are a sequence of characters used for counting, and for recording what number sequel a movie is. valid roman numerals are:
 
+| numeral | value |
+| ------- | ----- |
 | I | 1    |
 | V | 5    |
 | X | 10   |
