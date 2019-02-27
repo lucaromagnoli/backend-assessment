@@ -1,22 +1,33 @@
-# turner townsend technical assessment
+# Turner & Townsend technical assessment
 
-welcome to the turner & townsend technical assessment. thank you so much for your interest in joining our team and for taking the time to apply to this role. the purpose of this assessment is for us to get a good idea of how you approach solving problems. the next stage after submitting a solution is for you to pair with us on extending it in some way.
+Welcome to the Turner & Townsend technical assessment. 
+Thank you so much for your interest in joining our team and for taking the time to apply to this role.
+The purpose of this assessment is for us to get a good idea of how you approach solving problems.
+The next stage after submitting a solution is for you to pair with us on extending it in some way.
 
-the purpose of this is not to trick you or catch you out. although the problems are often deliberately ambiguous, we are much more interested in how you arrive at a solution rather than the solution itself.
+The purpose of this is not to trick you or catch you out. Although the problems are often deliberately
+ambiguous, we are much more interested in how you arrive at a solution rather than the solution itself.
 
-please make yourself comfortable before attempting any of these. there is no time limit, although if you find yourself spending more than a couple of hours on these, you might be taking the solution too far. we value your time and don't want to waste it.
+Please make yourself comfortable before attempting any of these. There is no time limit, although if you
+find yourself spending more than a couple of hours on these, you might be taking the solution too far.
+We value your time and don't want to waste it.
 
-the problems are divided on complexity, from low to spicy. please choose a problem which you feel you will have time to properly solve and which gives you the most opportunity to demonstrate your programming skills. consider the seniority of the role in the decision of which problem to tackle.
+The problems are divided on complexity, from low to spicy. Please choose a problem which you feel you
+will have time to properly solve and which gives you the most opportunity to demonstrate your programming
+skills. Consider the seniority of the role in the decision of which problem to tackle.
 
-at turner & townsend, we prefer solutions which are explicit over implicit, discoverable over performant, and which are correctly tested given their size. all of these require python as it is the language we use most often here.
+At Turner & Townsend, we prefer solutions which are explicit over implicit, discoverable over performant,
+and which are correctly tested given their size. All of these require python as it is the language we
+use most often here.
 
-to submit a solution, email us a zip of your code repository containing your solution, along with instructions on how to run it.
+To submit a solution, email us a zip of your code repository containing your solution, along with
+instructions on how to run it.
 
-thanks!
+Thanks!
 
-## the collatz conjecture - low
+## The Collatz conjecture - low
 
-the collatz, or 3n + 1 conjecture, is a mathematical sequence defined as follows:
+The Collatz, or 3n + 1 conjecture, is a mathematical sequence defined as follows:
 
 * start with a number, n
 * if n is even:
@@ -25,21 +36,23 @@ the collatz, or 3n + 1 conjecture, is a mathematical sequence defined as follows
   * produce 3 * n + 1
 * repeat until n is 1
 
-write a python program which takes a numeric input and shows how many steps it takes until the collatz sequence reaches 1.
+Write a python program which takes a numeric input and shows how many steps it takes until the Collatz
+sequence reaches 1.
 
-## roman numerals - medium
+## Roman numerals - medium
 
-roman numerals are a sequence of characters used for counting, and for recording what number sequel a movie is. valid roman numerals are:
+Roman numerals are a sequence of characters used for counting, and for recording what number sequel a movie is.
+Valid roman numerals are:
 
 | numeral | value |
 | ------- | ----- |
-| I | 1    |
-| V | 5    |
-| X | 10   |
-| C | 100  |
-| M | 1000 |
+| I       | 1     |
+| V       | 5     |
+| X       | 10    |
+| C       | 100   |
+| M       | 1000  |
 
-roman numerals are written by expressing each digit separately starting with the left most digit:
+Roman numerals are written by expressing each digit separately starting with the left most digit:
 
 ```
 X = 10
@@ -47,32 +60,36 @@ VI = 5 + 1 = 6
 MXVII = 1000 + 10 + 5 + 1 + 1 = 1017
 ```
 
-there are some other rules around roman numerals which we don't currently care about.
+There are some other rules around roman numerals which we don't currently care about.
 
-write a python program which takes a series of roman numerals as input and which outputs their value as a number.
+Write a python program which takes a series of roman numerals as input and which outputs their value as a number.
 
-## stack - spicy 🌶
+## Stack - spicy 🌶
 
-fifth is a new stack-based language. a stack is a data structure which can only have elements added to the top. fifth stores a stack of integers and supports commands to manipulate that stack. operations always apply to the top of the stack.
+Fifth is a new stack-based language. A stack is a data structure which can only have elements added to the top.
+Fifth stores a stack of integers and supports commands to manipulate that stack. 
+Operations always apply to the top of the stack.
 
-fifth supports the following arithmetic operators:
+Fifth supports the following arithmetic operators:
 
 ```
 + - * /
 ```
 
-each of these applies the operator to the two values on the top of the stack and pushes the result to the top of the stack. if division results in a non-integer, round down.
+Each of these applies the operator to the two values on the top of the stack and pushes the
+result to the top of the stack. If division results in a non-integer, round down.
 
-fifth also supports the following commands:
+Fifth also supports the following commands:
 
 * `PUSH x` - push x onto the top of the stack, where x is a valid integer
 * `POP` - remove the top element of the stack
 * `SWAP` - swap the top two elements of the stack
 * `DUP` - duplicate the top element of the stack
 
-write a python program which works as a fifth interpreter. each line of input to the program should represent a single fifth command. output the result of each command to the terminal. handle errors sensibly.
+Write a python program which works as a fifth interpreter. Each line of input to the program should
+represent a single fifth command. Output the result of each command to the terminal. Handle errors sensibly.
 
-example:
+Example:
 ```
 stack is []
 PUSH 3
