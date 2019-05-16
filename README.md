@@ -27,7 +27,7 @@ instructions on how to run it.
 
 Thanks!
 
-## The Collatz conjecture - low
+## The Collatz conjecture
 
 The Collatz, or 3n + 1 conjecture, is a mathematical sequence defined as follows:
 
@@ -41,7 +41,7 @@ The Collatz, or 3n + 1 conjecture, is a mathematical sequence defined as follows
 Write a python program which takes a numeric input and shows how many steps it takes until the Collatz
 sequence reaches 1.
 
-## Roman numerals - medium
+## Roman Numerals
 
 Roman numerals are a sequence of characters used for counting, and for recording what number sequel a movie is.
 Valid roman numerals are:
@@ -66,7 +66,7 @@ There are some other rules around roman numerals which we don't currently care a
 
 Write a python program which takes a series of roman numerals as input and which outputs their value as a number.
 
-## Stack - spicy 🌶
+## Stack
 
 Fifth is a new stack-based language. A stack is a data structure which can only have elements added to the top.
 Fifth stores a stack of integers and supports commands to manipulate that stack. 
