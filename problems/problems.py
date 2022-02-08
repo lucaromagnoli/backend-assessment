@@ -16,4 +16,6 @@ def collatz_conjecture(n: int) -> int:
             return count_sequence(_n/2, steps=steps + 1)
         else:
             return count_sequence(3 * _n + 1, steps=steps + 1)
+    if n < 1:
+        raise ValueError('Please enter a positive integer')
     return count_sequence(n)
