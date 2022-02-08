@@ -1,5 +1,38 @@
 # Turner & Townsend technical assessment
 
+Provide a CLI tool with the solutions to the assessment problems
+
+## Setup
+
+Clone the repo locally
+
+    $ git clone git@github.com:lucaromagnoli/backend-assessment.git
+
+Create a virtual environment using your favourite virtual env manager and install requirements
+
+    $ pip install -r requirements.txt
+
+### Run the app
+
+The main command to run the CLI tool is
+
+  `$ python -m turner_and_townsend.app`
+
+This will give you access to the following commands:
+  * collatz  
+  * fifth
+  * roman
+  
+#### Collatz
+     python -m turner_and_townsend.app collatz <integer> 
+
+#### Roman
+     python -m turner_and_townsend.app roman <string>
+
+#### Fifth
+     python -m turner_and_townsend.app fifth 
+
+-----
 Welcome to the Turner & Townsend technical assessment. 
 Thank you so much for your interest in joining our team and for taking the time to apply to this role.
 The purpose of this assessment is for us to get a good idea of how you approach solving problems.
