@@ -36,6 +36,9 @@ class RomanNumber:
     def __init__(self, value):
         self.value = self._validate_string(value)
 
+    def __str__(self):
+        return self.value
+
     @classmethod
     def _validate_string(cls, string_value):
         for c in string_value:
