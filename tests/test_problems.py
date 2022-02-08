@@ -1,6 +1,6 @@
 import pytest
 
-from problems import problems
+from turner_and_townsend import problems
 
 collatz_conjecture_test_data = [
     (1, 0),
