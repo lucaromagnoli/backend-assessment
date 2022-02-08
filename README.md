@@ -32,6 +32,10 @@ This will give you access to the following commands:
 #### Fifth
      python -m turner_and_townsend.app fifth 
 
+### Run tests
+
+    $ pytest
+
 -----
 Welcome to the Turner & Townsend technical assessment. 
 Thank you so much for your interest in joining our team and for taking the time to apply to this role.
